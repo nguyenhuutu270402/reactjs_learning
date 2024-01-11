@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--Base-Darker-Grey, #141518);
+}
+
+.boxContent {
+    width: 70%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    background: #0B0E13;
+    border-radius: 37px;
+    position: relative;
+
+}
+
+.boxImageEarth {
+    position: absolute;
+    top: 24px;
+    bottom: 24px;
+    right: 24px;
+}
+
+.imageEarth {
+    height: 100%;
+}
+
+.boxLogin {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 24px;
+    bottom: 24px;
+    left: 24px;
+    width: 330px;
+    border-radius: 37px;
+    background: #12181F;
+    padding: 70px;
+}
+
+.txtLogin {
+    color: var(--White, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txtContentLogin {
+    color: #C3CDDB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.boxTextInput {
+    border-radius: 25px;
+    background: #161D26;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.boxTextInput.wrong {
+    border: 1px solid #EB445A;
+}
+
+.txtWrong {
+    color: #EB445A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.iconEmail {
+    width: 24px;
+    height: 24px;
+}
+
+.line1 {
+    background: #C3CDDB;
+    opacity: 0.4;
+    height: 13px;
+    width: 1px;
+    margin: 0 16px;
+}
+
+.inputEmail {
+    font-size: 14px;
+    outline: none;
+    background: none;
+    border: none;
+    color: #FFF;
+}
+
+.inputEmail::placeholder {
+    color: #808195;
+}
+
+.btnLogin {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background: #246CF9;
+    border-radius: 25px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btnLogin:hover {
+    background-color: #1951b9;
+}
+
+.txtButton {
+    color: var(--White, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.iconButton {
+    position: absolute;
+    right: 16px;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+.mrt10 {
+    margin-top: 10px;
+}
+
+.mrt24 {
+    margin-top: 24px;
+}
+
+.mrt64 {
+    margin-top: 64px;
+}

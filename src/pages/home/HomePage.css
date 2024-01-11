@@ -1,0 +1,368 @@
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background: var(--Base-Darker-Grey, #141518);
+}
+
+.boxNavbar {
+    width: calc(0.173 * 100vw);
+    height: calc(100vh - 48px);
+    background: var(--Base-Grey-100, #1E1F25);
+    border-radius: 20px;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    background: #282C38;
+    width: 100%;
+    height: 1px;
+    margin-top: 76px;
+    margin-bottom: 10px;
+}
+
+.boxTopNavbar {
+    align-items: center;
+    flex: 1;
+}
+
+.boxEmailNavbar {
+    border-radius: 0px 0px 20px 20px;
+    background: var(--Base-Grey-80, #282C38);
+    padding: 20px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.itemNavbar {
+    width: 100%;
+    background: var(--Base-Grey-100, #1E1F25);
+    display: flex;
+    flex-direction: row;
+    padding: 10px 26px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.itemNavbar:hover {
+    background: var(--Base-Grey-80, #282C38);
+}
+
+.itemNavbar.active {
+    background: var(--Base-Grey-80, #282C38);
+}
+
+.iconItemNavbar {
+    width: 24px;
+    height: 24px;
+}
+
+.textItemNavbar {
+    margin-left: 16px;
+    color: var(--Base-Grey-40, #757B8C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textItemNavbar.active {
+    color: #FFF;
+}
+
+.textAccount {
+    color: var(--Base-Grey-60, #3C4254);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 26px;
+}
+
+.boxStatistics {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.boxStatisticsContent {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.txtStatistics {
+    color: var(--Base-Grey-0, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 30px;
+
+}
+
+.boxStatisticsLeft {
+    overflow: auto;
+    padding-right: 1px;
+    height: calc(100vh - 105px);
+    flex: 1;
+}
+
+.boxStatisticsLeft::-webkit-scrollbar {
+    width: 3px;
+}
+
+.boxStatisticsLeft::-webkit-scrollbar-thumb {
+    background-color: #246CF9;
+    border-radius: 5px;
+}
+
+.boxStatisticsLeft::-webkit-scrollbar-track {
+    background-color: #27292F;
+}
+
+.chartTop {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.chartBottom {
+    width: 100%;
+}
+
+.boxStatisticsRight {
+    display: flex;
+    flex-direction: column;
+    width: calc(0.215 * 100vw - 48px);
+    background-color: #1E1F25;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.boxItemServer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: min-content;
+
+    margin-bottom: 10px;
+}
+
+.boxItemServer.active {
+    border-radius: 10px;
+    border: 2px solid #246CF9;
+}
+
+.boxInforItemServer {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.imageItemServer {
+    height: 20px;
+}
+
+.textItemServer {
+    color: var(--Base-Grey-0, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.boxStatusItemServer {
+    border-radius: 5px;
+    background: rgba(48, 224, 161, 0.20);
+    color: var(--Accent-Light-Green, #30E0A1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding: 8px;
+}
+
+.txtServers {
+    color: var(--Base-Grey-0, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.listviewServer {
+    overflow: auto;
+    height: 200px;
+    padding-right: 20px;
+}
+
+
+.listviewServer::-webkit-scrollbar {
+    width: 3px;
+}
+
+.listviewServer::-webkit-scrollbar-thumb {
+    background-color: #246CF9;
+    border-radius: 5px;
+}
+
+.listviewServer::-webkit-scrollbar-track {
+    background-color: #27292F;
+}
+
+.boxConnectionSpeed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-radius: 16px;
+    background: #27292F;
+    margin-top: 10px;
+}
+
+.line2 {
+    height: auto;
+    width: 1px;
+    background-color: #4A4A61;
+}
+
+.boxDownload {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.boxInforDownload {
+    margin-left: 10px;
+}
+
+.txtDownload {
+    color: #A1A1AC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.boxDownloadValue {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.txtDownloadValue {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.txtDownloadUnit {
+    color: #A1A1AC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.boxPingLoss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.boxPing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.imagePing {
+    margin-right: 4px;
+}
+
+.txtPing {
+    color: #A1A1AC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.boxChartCircle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleChart {
+    width: 70%;
+    margin-top: 10px;
+}
+
+.boxLocationIP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.line3 {
+    height: 56px;
+    width: 1px;
+    background: #4A4A61;
+}
+
+.txtLocation {
+    color: #A1A1AC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.txtLocationValue {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+}
